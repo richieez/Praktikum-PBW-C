@@ -1,2 +1,3 @@
 # Praktikum-PBW-C
-Praktikum PBW Kelas C
+Repository untuk Praktikum PBW Kelas C
+1808561056 - Nathanael Richie Thomas
