@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <title>Tugas Pertemuan 4</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="judul">
+                <h1>Tugas PBW 4</h1>
+                <p>Halaman untuk Mahasiswa</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>    
+            </nav>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h2>Form Registrasi<br><br></h2>
+                <div>
+                    <form action="register-success.html" autocomplete="off">
+
+                        <label for="name">Nama :<br></label>
+                        <input type="text" id="name" name="fullname" placeholder="Nama Depan" size="20">
+                        <input type="text" id="name" name="lastname" placeholder="Nama Belakang" size="20"><br><br>
+
+                        <label for="email">Email : <br></label>
+                        <input type="text" name="email" id="email" placeholder="Email Anda" size="40"><br><br>
+
+                        <label for="password">Password : <br></label>
+                        <input type="password" name="password" id="password" placeholder="Password minimal terdiri dari 8 - 16 karakter" minlength="8" maxlength="16" size="60"><br><br>
+
+                        <label for="jkelamin">Jenis Kelamin : <br></label>
+                        <input type="radio" name="jkelamin" id="male" value="Laki-laki">
+                        <label for="male">Laki-laki<br></label>
+                        <input type="radio" name="jkelamin" id="female" value="Perempuan">
+                        <label for="female">Perempuan</label><br><br>
+
+                        <label for="kendaraan">Kendaraan yang dimiliki : <br></label>
+                        <input type="checkbox" name="mobil" id="mobil">
+                        <label for="mobil">Mobil</label><br>
+                        <input type="checkbox" name="motor" id="motor">
+                        <label for="motor">Motor</label><br>
+                        <input type="checkbox" name="lainnya" id="lainnya">
+                        <label for="lainnya">Lainnya</label><br><br>
+
+                        <label for="agama">Agama : <br></label>
+                        <select name="agama" id="agama">
+                            <option value="kristen">Kristen</option>
+                            <option value="katolik">Katolik</option>
+                            <option value="islam">Islam</option>
+                            <option value="buddha">Buddha</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="konghucu">Konghucu</option>
+                        </select><br><br>
+
+                        <label for="foto">Upload Foto : <br></label>
+                        <input type="file" name="foto" id="foto"><br><br>
+
+                        <label for="alasan">Alasan masuk ke Universitas Udayana :<br></label>
+                        <textarea name="alasan" id="alasan" cols="60" rows="15" placeholder="Masukkan alasan anda disini..."></textarea><br><br>
+
+                        <input type="submit" value="Register">
+                        <input type="reset">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2020 by Richie</p>
+        </footer>
+    </body>
+</html>
