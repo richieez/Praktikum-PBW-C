@@ -47,7 +47,7 @@ include 'koneksi.php';
         
         if($akunterdaftar==1){
           $_SESSION['login'] = $akun;
-            echo "<script>alert('Login Berhasil');</script>";
+            echo "<script>alert('Login anda telah berhasil');</script>";
             if ($_SESSION['login']['jabatan'] == "admin") {
               echo "<script>location='main.php'</script>";
             }
